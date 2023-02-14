@@ -13,7 +13,7 @@ public class Mission {
         ));
         List<Book> BookList = library.getBookList();
         while (true) {
-            System.out.println("대여할 책의 번호를 입력하세요.");
+            System.out.println("대여할 책의 번호를 입력하세요");
             for (int i = 0; i < BookList.size(); i++) {
                 Book book = BookList.get(i);
                 System.out.println(i + 1 + ". " + book.getName() + " - " + book.getStatus());
